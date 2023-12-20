@@ -224,6 +224,7 @@ main{
   padding: 0 0 8px;
   border-radius: 4px;
   background-color: #005ff8;
+  border: 0px;
 }
 .sidebar__button2{
 	display: flex;
@@ -235,6 +236,7 @@ main{
 	object-fit: contain;
 	border-radius: 4px;
 	background-color: #005ff8;
+	border: 0px;
   
 }
 .sidebar__button-text {
@@ -455,15 +457,6 @@ line-height: 100%;
 	height: 20px;
 	width: 100%;
 }
-.row-border{
-	display: flex;
-width: 1400px;
-height: 1px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-background: #000;
-}
 .row {
 	display: flex;
 	flex-direction: column;
@@ -473,12 +466,12 @@ background: #000;
 }
 .row-border {
 	display: flex;
-margin-left:40px;
 height: 1px;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
 background: #EAF0FA;
+width: calc(100% - 80px);
 }
 .row__information {
 display: flex;
